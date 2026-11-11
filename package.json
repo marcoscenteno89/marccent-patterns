@@ -1,0 +1,14 @@
+{
+  "name": "marccent-patterns",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marccent's patterns: each one's markup, from the theme's components and classes only (marccent-theme's docs/PATTERNS.md).",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/patterns.mjs",
+    "patterns": "node scripts/patterns.mjs"
+  },
+  "devDependencies": {
+    "marccent-theme": "github:marcoscenteno89/marccent-theme#020a0ac5074b4ce5d549923c2fefa468167197d5"
+  }
+}
