@@ -9,6 +9,6 @@ A pattern that needs a kit's data lives in that kit (marccent-kits, [docs/KITS.m
 
 `npm test` fails on a class the theme doesn't define or a `data-component` nothing writes, against the theme this repo
 pins (`package.json`); marccent-theme's `npm test` runs it against the theme as it's being changed. Converting each
-pattern to each output's blocks and tags is after 1.0 (docs/TICKETS.md T-037).
+pattern to each output's blocks and tags is after 1.0 (T-037, marccent-theme issue #32).
 
-`docs/` links to marccent-theme's docs: the rules and this repo's work list (`docs/todo/marccent-patterns.md`).
+`docs/` links to marccent-theme's docs: the rules. This repo's work is the marccent-theme issues labeled `project: marccent-patterns`, on the [Marccent board](https://github.com/users/marcoscenteno89/projects/1).
