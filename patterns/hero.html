@@ -1,0 +1,15 @@
+<!-- Hero (docs/PATTERNS.md): the page's first section, an animation behind its text. Placeholders: … stands for content;
+     checked by npm run patterns. Without the animation layer it's a plain band (bg-gradient, or an image as in the
+     Image card). -->
+<section class="wrap wrap-fluid stack bg-gradient" style="min-height:70vh">
+  <div data-component="animation" data-name="network-loop" data-frame-rate="30" class="h-100" aria-hidden="true"></div>
+  <div class="wrap pad-y-section grid cols-1 content-center justify-center text-center">
+    <p class="eyebrow">…eyebrow…</p>
+    <h1 class="display-lg measure-sm">…title…</h1>
+    <p class="fs-lg opacity-75 measure">…a line about the page…</p>
+    <div class="row-wrap cols-center gap-sm">
+      <a href="…" data-component="button" class="btn light"><span class="btn-text">…call to action…</span></a>
+      <a href="…">…second action…</a>
+    </div>
+  </div>
+</section>
