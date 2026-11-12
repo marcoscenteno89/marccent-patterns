@@ -9,6 +9,6 @@
     "patterns": "node scripts/patterns.mjs"
   },
   "devDependencies": {
-    "marccent-theme": "github:marcoscenteno89/marccent-theme#57021d4692fb069b9ea641d1640c6e3ac17e60fe"
+    "marccent-theme": "github:marcoscenteno89/marccent-theme#94d3db82d4819b7e3f52ce5817543bbc87b65cec"
   }
 }

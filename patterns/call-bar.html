@@ -1,0 +1,7 @@
+<!-- Call bar (docs/PATTERNS.md): at the end of the page (the footer), phones only. Placeholders: … stands for content;
+     checked by npm run patterns. The spacer is the bar's height (a button, the padding, the border on top and the button's), so the bar never covers the page's last line. -->
+<div class="d-md-none" style="height:calc(var(--icon-size) + 2 * var(--space-sm) + 3 * var(--border-width))" aria-hidden="true"></div>
+<div class="fixed-bottom d-md-none bg border-top pad-sm grid fixed gap-sm" style="--cols:2">
+  <a href="tel:…" data-component="button" class="btn primary w-100"><i data-component="icon" class="fa-solid fa-phone btn-icon" aria-hidden="true"></i><span class="btn-text">Call</span></a>
+  <a href="…" data-component="button" class="btn w-100"><i data-component="icon" class="fa-solid fa-file-lines btn-icon" aria-hidden="true"></i><span class="btn-text">Get a quote</span></a>
+</div>
