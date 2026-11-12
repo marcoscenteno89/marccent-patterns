@@ -1,0 +1,19 @@
+<!-- Pricing table (docs/PATTERNS.md): plans side by side, the featured one raised; a TabBar switches the period (a Tab
+     per period: Monthly, Yearly, each holding this grid with its own Prices). Placeholders: … stands for content;
+     checked by npm run patterns. -->
+<div class="grid items-stretch" style="--cols:3;--min:16rem">
+  <article class="bg border round pad grid cols-1 content-start gap-sm">
+    <h3 class="h5">…plan…</h3>
+    <span data-component="price" class="d-inline-grid auto-cols gap-x-sm items-end nums-tabular display-sm">…</span>
+    <ul class="grid cols-1 gap-xs">…features…</ul>
+    <a href="…" data-component="button" class="btn justify-self-start"><span class="btn-text">…choose…</span></a>
+  </article>
+  <article class="bg border round pad grid cols-1 content-start gap-sm shadow-lg">
+    <span class="chip bg-primary justify-self-start">…Most popular…</span>
+    <h3 class="h5">…plan…</h3>
+    <span data-component="price" class="d-inline-grid auto-cols gap-x-sm items-end nums-tabular display-sm">…</span>
+    <ul class="grid cols-1 gap-xs">…features…</ul>
+    <a href="…" data-component="button" class="btn primary justify-self-start"><span class="btn-text">…choose…</span></a>
+  </article>
+  <!-- …a card per plan… -->
+</div>
